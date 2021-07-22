@@ -1,0 +1,61 @@
+/*normalize or reset css*/
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+:root {
+  --purple: #4e5ebb;
+  --light-gray: #8e99a1;
+  --blue-dark: #1e262f;
+}
+
+/* site variables */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+}
+
+section {
+  border: 2px yellow solid;
+}
+
+footer {
+  border: 2px blue solid;
+}
+
+/* --- Header -- */
+header {
+  border: 2px purple solid;
+  background-color: #515fbc;
+}
+
+/*----- Hero-----*/
+
+#section-hero {
+  background-color: var(--purple);
+  color: white;
+}
+
+.logo {
+  display: flex;
+  width: 80px;
+  margin: 30px 0;
+}
+
+.logo > img {
+  width: 80px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-weight: 500px;
+}
+
+h3 {
+  font-weight: 300px;
+}
